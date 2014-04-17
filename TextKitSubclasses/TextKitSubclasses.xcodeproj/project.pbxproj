@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD32FCB018FD07C700C14CE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD32FCAF18FD07C700C14CE6 /* Foundation.framework */; };
+		FD32FCB218FD07C700C14CE6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD32FCB118FD07C700C14CE6 /* CoreGraphics.framework */; };
+		FD32FCB418FD07C700C14CE6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD32FCB318FD07C700C14CE6 /* UIKit.framework */; };
+		FD32FCBA18FD07C700C14CE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD32FCB818FD07C700C14CE6 /* InfoPlist.strings */; };
+		FD32FCBC18FD07C700C14CE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD32FCBB18FD07C700C14CE6 /* main.m */; };
+		FD32FCC018FD07C700C14CE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD32FCBF18FD07C700C14CE6 /* AppDelegate.m */; };
+		FD32FCC318FD07C700C14CE6 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD32FCC118FD07C700C14CE6 /* Main_iPhone.storyboard */; };
+		FD32FCC618FD07C700C14CE6 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD32FCC418FD07C700C14CE6 /* Main_iPad.storyboard */; };
+		FD32FCC918FD07C700C14CE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD32FCC818FD07C700C14CE6 /* ViewController.m */; };
+		FD32FCCB18FD07C700C14CE6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD32FCCA18FD07C700C14CE6 /* Images.xcassets */; };
+		FD32FCE918FD0F1800C14CE6 /* RoundTextContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = FD32FCE818FD0F1800C14CE6 /* RoundTextContainer.m */; };
+		FD32FCEB18FD170300C14CE6 /* TexteMultilangue.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FD32FCEA18FD170300C14CE6 /* TexteMultilangue.rtf */; };
+		FD32FCEE18FD274A00C14CE6 /* CircleTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD32FCED18FD274A00C14CE6 /* CircleTextView.m */; };
+		FD32FCF018FD32EF00C14CE6 /* LigneDeTexte.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FD32FCEF18FD32EF00C14CE6 /* LigneDeTexte.rtf */; };
+		FD32FCF318FD441E00C14CE6 /* ColoringTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = FD32FCF218FD441E00C14CE6 /* ColoringTextStorage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD32FCAC18FD07C700C14CE6 /* TextKitSubclasses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextKitSubclasses.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD32FCAF18FD07C700C14CE6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FD32FCB118FD07C700C14CE6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FD32FCB318FD07C700C14CE6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FD32FCB718FD07C700C14CE6 /* TextKitSubclasses-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextKitSubclasses-Info.plist"; sourceTree = "<group>"; };
+		FD32FCB918FD07C700C14CE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FD32FCBB18FD07C700C14CE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD32FCBD18FD07C700C14CE6 /* TextKitSubclasses-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TextKitSubclasses-Prefix.pch"; sourceTree = "<group>"; };
+		FD32FCBE18FD07C700C14CE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD32FCBF18FD07C700C14CE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD32FCC218FD07C700C14CE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		FD32FCC518FD07C700C14CE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		FD32FCC718FD07C700C14CE6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD32FCC818FD07C700C14CE6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD32FCCA18FD07C700C14CE6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FD32FCD118FD07C700C14CE6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FD32FCE718FD0F1800C14CE6 /* RoundTextContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundTextContainer.h; sourceTree = "<group>"; };
+		FD32FCE818FD0F1800C14CE6 /* RoundTextContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundTextContainer.m; sourceTree = "<group>"; };
+		FD32FCEA18FD170300C14CE6 /* TexteMultilangue.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = TexteMultilangue.rtf; sourceTree = "<group>"; };
+		FD32FCEC18FD274A00C14CE6 /* CircleTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleTextView.h; sourceTree = "<group>"; };
+		FD32FCED18FD274A00C14CE6 /* CircleTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleTextView.m; sourceTree = "<group>"; };
+		FD32FCEF18FD32EF00C14CE6 /* LigneDeTexte.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = LigneDeTexte.rtf; sourceTree = "<group>"; };
+		FD32FCF118FD441E00C14CE6 /* ColoringTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColoringTextStorage.h; sourceTree = "<group>"; };
+		FD32FCF218FD441E00C14CE6 /* ColoringTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColoringTextStorage.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD32FCA918FD07C700C14CE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD32FCB218FD07C700C14CE6 /* CoreGraphics.framework in Frameworks */,
+				FD32FCB418FD07C700C14CE6 /* UIKit.framework in Frameworks */,
+				FD32FCB018FD07C700C14CE6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD32FCA318FD07C700C14CE6 = {
+			isa = PBXGroup;
+			children = (
+				FD32FCB518FD07C700C14CE6 /* TextKitSubclasses */,
+				FD32FCAE18FD07C700C14CE6 /* Frameworks */,
+				FD32FCAD18FD07C700C14CE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD32FCAD18FD07C700C14CE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD32FCAC18FD07C700C14CE6 /* TextKitSubclasses.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD32FCAE18FD07C700C14CE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD32FCAF18FD07C700C14CE6 /* Foundation.framework */,
+				FD32FCB118FD07C700C14CE6 /* CoreGraphics.framework */,
+				FD32FCB318FD07C700C14CE6 /* UIKit.framework */,
+				FD32FCD118FD07C700C14CE6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD32FCB518FD07C700C14CE6 /* TextKitSubclasses */ = {
+			isa = PBXGroup;
+			children = (
+				FD32FCBE18FD07C700C14CE6 /* AppDelegate.h */,
+				FD32FCBF18FD07C700C14CE6 /* AppDelegate.m */,
+				FD32FCC118FD07C700C14CE6 /* Main_iPhone.storyboard */,
+				FD32FCC418FD07C700C14CE6 /* Main_iPad.storyboard */,
+				FD32FCC718FD07C700C14CE6 /* ViewController.h */,
+				FD32FCC818FD07C700C14CE6 /* ViewController.m */,
+				FD32FCF118FD441E00C14CE6 /* ColoringTextStorage.h */,
+				FD32FCF218FD441E00C14CE6 /* ColoringTextStorage.m */,
+				FD32FCE718FD0F1800C14CE6 /* RoundTextContainer.h */,
+				FD32FCE818FD0F1800C14CE6 /* RoundTextContainer.m */,
+				FD32FCEC18FD274A00C14CE6 /* CircleTextView.h */,
+				FD32FCED18FD274A00C14CE6 /* CircleTextView.m */,
+				FD32FCEA18FD170300C14CE6 /* TexteMultilangue.rtf */,
+				FD32FCEF18FD32EF00C14CE6 /* LigneDeTexte.rtf */,
+				FD32FCCA18FD07C700C14CE6 /* Images.xcassets */,
+				FD32FCB618FD07C700C14CE6 /* Supporting Files */,
+			);
+			path = TextKitSubclasses;
+			sourceTree = "<group>";
+		};
+		FD32FCB618FD07C700C14CE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD32FCB718FD07C700C14CE6 /* TextKitSubclasses-Info.plist */,
+				FD32FCB818FD07C700C14CE6 /* InfoPlist.strings */,
+				FD32FCBB18FD07C700C14CE6 /* main.m */,
+				FD32FCBD18FD07C700C14CE6 /* TextKitSubclasses-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD32FCAB18FD07C700C14CE6 /* TextKitSubclasses */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD32FCE118FD07C800C14CE6 /* Build configuration list for PBXNativeTarget "TextKitSubclasses" */;
+			buildPhases = (
+				FD32FCA818FD07C700C14CE6 /* Sources */,
+				FD32FCA918FD07C700C14CE6 /* Frameworks */,
+				FD32FCAA18FD07C700C14CE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextKitSubclasses;
+			productName = TextKitSubclasses;
+			productReference = FD32FCAC18FD07C700C14CE6 /* TextKitSubclasses.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD32FCA418FD07C700C14CE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = FD32FCA718FD07C700C14CE6 /* Build configuration list for PBXProject "TextKitSubclasses" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD32FCA318FD07C700C14CE6;
+			productRefGroup = FD32FCAD18FD07C700C14CE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD32FCAB18FD07C700C14CE6 /* TextKitSubclasses */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD32FCAA18FD07C700C14CE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD32FCEB18FD170300C14CE6 /* TexteMultilangue.rtf in Resources */,
+				FD32FCC618FD07C700C14CE6 /* Main_iPad.storyboard in Resources */,
+				FD32FCCB18FD07C700C14CE6 /* Images.xcassets in Resources */,
+				FD32FCC318FD07C700C14CE6 /* Main_iPhone.storyboard in Resources */,
+				FD32FCF018FD32EF00C14CE6 /* LigneDeTexte.rtf in Resources */,
+				FD32FCBA18FD07C700C14CE6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD32FCA818FD07C700C14CE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD32FCC918FD07C700C14CE6 /* ViewController.m in Sources */,
+				FD32FCF318FD441E00C14CE6 /* ColoringTextStorage.m in Sources */,
+				FD32FCEE18FD274A00C14CE6 /* CircleTextView.m in Sources */,
+				FD32FCC018FD07C700C14CE6 /* AppDelegate.m in Sources */,
+				FD32FCBC18FD07C700C14CE6 /* main.m in Sources */,
+				FD32FCE918FD0F1800C14CE6 /* RoundTextContainer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD32FCB818FD07C700C14CE6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD32FCB918FD07C700C14CE6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FD32FCC118FD07C700C14CE6 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD32FCC218FD07C700C14CE6 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		FD32FCC418FD07C700C14CE6 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD32FCC518FD07C700C14CE6 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD32FCDF18FD07C800C14CE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD32FCE018FD07C800C14CE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD32FCE218FD07C800C14CE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextKitSubclasses/TextKitSubclasses-Prefix.pch";
+				INFOPLIST_FILE = "TextKitSubclasses/TextKitSubclasses-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FD32FCE318FD07C800C14CE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextKitSubclasses/TextKitSubclasses-Prefix.pch";
+				INFOPLIST_FILE = "TextKitSubclasses/TextKitSubclasses-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD32FCA718FD07C700C14CE6 /* Build configuration list for PBXProject "TextKitSubclasses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD32FCDF18FD07C800C14CE6 /* Debug */,
+				FD32FCE018FD07C800C14CE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD32FCE118FD07C800C14CE6 /* Build configuration list for PBXNativeTarget "TextKitSubclasses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD32FCE218FD07C800C14CE6 /* Debug */,
+				FD32FCE318FD07C800C14CE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD32FCA418FD07C700C14CE6 /* Project object */;
+}

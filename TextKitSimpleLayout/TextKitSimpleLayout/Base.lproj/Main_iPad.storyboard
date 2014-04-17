@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D38" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.25" maxValue="0.75" translatesAutoresizingMaskIntoConstraints="NO" id="1ty-qM-1hZ">
+                                <rect key="frame" x="218" y="974" width="332" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="setColumn1Size:" destination="BYZ-38-t0r" eventType="valueChanged" id="imt-oq-mib"/>
+                                </connections>
+                            </slider>
+                            <view multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dRV-uV-dek" userLabel="Colunm1 View">
+                                <rect key="frame" x="20" y="20" width="346" height="925"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.97349673509597778" green="0.94063711166381836" blue="0.73864823579788208" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hyR-l1-cdK" userLabel="Column2 View">
+                                <rect key="frame" x="415" y="20" width="333" height="925"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.97254908084869385" green="0.93725496530532837" blue="0.75294125080108643" alpha="1" colorSpace="deviceRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dRV-uV-dek" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="8pK-e8-xu9"/>
+                            <constraint firstItem="hyR-l1-cdK" firstAttribute="leading" secondItem="dRV-uV-dek" secondAttribute="trailing" constant="40" id="HfN-jO-KvA"/>
+                            <constraint firstAttribute="centerX" secondItem="1ty-qM-1hZ" secondAttribute="centerX" id="O39-6k-MTj"/>
+                            <constraint firstItem="dRV-uV-dek" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" id="PK4-8T-xVE"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="1ty-qM-1hZ" secondAttribute="bottom" constant="20" id="jpL-uF-SBZ"/>
+                            <constraint firstAttribute="trailing" secondItem="hyR-l1-cdK" secondAttribute="trailing" constant="20" id="t1o-vZ-5K2"/>
+                            <constraint firstItem="1ty-qM-1hZ" firstAttribute="top" secondItem="dRV-uV-dek" secondAttribute="bottom" constant="29" id="tsm-fD-fMh"/>
+                            <constraint firstItem="dRV-uV-dek" firstAttribute="height" secondItem="hyR-l1-cdK" secondAttribute="height" id="zb0-XT-u6g"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="column1View" destination="dRV-uV-dek" id="Pv3-cG-RLu"/>
+                        <outlet property="column2View" destination="hyR-l1-cdK" id="TO3-UD-rf9"/>
+                        <outlet property="firstColumnSizeSlider" destination="1ty-qM-1hZ" id="Inp-Ry-odU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
